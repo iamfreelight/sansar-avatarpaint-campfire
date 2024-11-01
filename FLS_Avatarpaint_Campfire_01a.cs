@@ -192,7 +192,7 @@ public class FLS_Avatarpaint_Campfire_01a : SceneObjectScript
 		WarmAreaTrigger.Subscribe(CollisionEventType.Trigger, OnTriggerWarm);
 		BurnAreaTrigger.Subscribe(CollisionEventType.Trigger, OnTriggerBurn);
 		
-        ScenePrivate.User.Subscribe(User.AddUser, OnUserJoin);
+        	ScenePrivate.User.Subscribe(User.AddUser, OnUserJoin);
 		
 		for (uint aui = 0; aui < ObjectPrivate.GetComponentCount(ComponentType.AudioComponent); ++aui)
 		{
@@ -238,7 +238,7 @@ public class FLS_Avatarpaint_Campfire_01a : SceneObjectScript
 	}
 	
 	private void OnUserJoin(UserData data)
-    {
+    	{
 		try {
 			//save avatars original materials via OnJoin, so they can be restored when going inside the WarmAreaTrigger
 			AgentPrivate agent = ScenePrivate.FindAgent(data.User);
