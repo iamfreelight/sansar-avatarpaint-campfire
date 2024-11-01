@@ -3,6 +3,7 @@
 The **AvatarPaint Campfire** is a demo script that shows how to enhance avatar interactivity around a virtual campfire in Sansar, by tinting them warm/cold/burnt by using two TriggerVolumes on the CampFire area itself. It changes the avatar's appearance based on their proximity to the campfire's triggers, simulating "cold," "warm," and "burnt" effects.
 
 ![Screenshot of AvatarPaint Campfire in Sansar Editor](screenshot1.png)
+![Screenshot AvatarPaint script properties in Sansar Editor inspector](screenshot5.png)
 ![Screenshot AvatarPaint Campfire @ Runtime 'Cold'](screenshot2.png)
 ![Screenshot AvatarPaint Campfire @ Runtime 'Warm'](screenshot3.png)
 ![Screenshot AvatarPaint Campfire @ Runtime 'Burnt'](screenshot4.png)
