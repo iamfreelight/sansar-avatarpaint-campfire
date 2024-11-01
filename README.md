@@ -55,4 +55,4 @@ The script saves the avatar's initial material properties upon joining the scene
 - **Exits the WarmAreaTrigger**: If configured, the avatar appears "cold."
 - **Enters the BurnAreaTrigger**: The avatar’s materials take on a burnt appearance and play a "sizzle" sound.
 
-
+## Get the system already setup, preconfigured and ready to drop over your existing campfire animation/system, for free on my [Sansar Store](https://store.sansar.com/listings/71fd79ed-4c82-4e0d-9f11-19a650e30fb5/avatarpaint-campfire-demo-v01a)
